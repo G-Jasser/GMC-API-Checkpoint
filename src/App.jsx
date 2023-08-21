@@ -1,12 +1,11 @@
 import './App.css'
+import UserList from './UserList'
 
 function App() {
   return (
     <>
       <div>
-        <p className="read-the-docs">
-          Nice
-        </p>  
+        <UserList/>
       </div>
     </>
   )

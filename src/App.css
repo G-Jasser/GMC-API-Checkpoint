@@ -7,3 +7,23 @@
 .read-the-docs {
   color: #888;
 }
+
+ul {
+  list-style: none;
+}
+li > ul >li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+div > ul > li {
+  background-color: #121212;
+  padding: 10px 15px;
+  border: 1px solid #888;
+  border-radius: 10px;
+}
+div > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
