@@ -28,12 +28,10 @@ const UserList = () => {
             {
               listOfUsers.map( user => 
               <li key={user.id}>
-                {console.log(user)}
                 <ul>
                   <li><h5 className="read-the-docs">Name: </h5><p>{user.name}</p></li>
                   <li><h5 className="read-the-docs">Email: </h5><p>{user.email}</p></li>
                   <li><h5 className="read-the-docs">Phone: </h5><p>{user.phone}</p></li>
-
                 </ul>
               </li>)
             }
